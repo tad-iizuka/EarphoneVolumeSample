@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32421F761D9406A300449FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32421F751D9406A300449FD1 /* AppDelegate.swift */; };
+		32421F781D9406A300449FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32421F771D9406A300449FD1 /* ViewController.swift */; };
+		32421F7B1D9406A300449FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32421F791D9406A300449FD1 /* Main.storyboard */; };
+		32421F7D1D9406A300449FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32421F7C1D9406A300449FD1 /* Assets.xcassets */; };
+		32421F801D9406A300449FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32421F7E1D9406A300449FD1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32421F721D9406A300449FD1 /* EarphoneVolumeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarphoneVolumeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32421F751D9406A300449FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32421F771D9406A300449FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32421F7A1D9406A300449FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32421F7C1D9406A300449FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32421F7F1D9406A300449FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32421F811D9406A300449FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32421F6F1D9406A300449FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32421F691D9406A300449FD1 = {
+			isa = PBXGroup;
+			children = (
+				32421F741D9406A300449FD1 /* EarphoneVolumeSample */,
+				32421F731D9406A300449FD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32421F731D9406A300449FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32421F721D9406A300449FD1 /* EarphoneVolumeSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32421F741D9406A300449FD1 /* EarphoneVolumeSample */ = {
+			isa = PBXGroup;
+			children = (
+				32421F751D9406A300449FD1 /* AppDelegate.swift */,
+				32421F771D9406A300449FD1 /* ViewController.swift */,
+				32421F791D9406A300449FD1 /* Main.storyboard */,
+				32421F7C1D9406A300449FD1 /* Assets.xcassets */,
+				32421F7E1D9406A300449FD1 /* LaunchScreen.storyboard */,
+				32421F811D9406A300449FD1 /* Info.plist */,
+			);
+			path = EarphoneVolumeSample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32421F711D9406A300449FD1 /* EarphoneVolumeSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32421F841D9406A300449FD1 /* Build configuration list for PBXNativeTarget "EarphoneVolumeSample" */;
+			buildPhases = (
+				32421F6E1D9406A300449FD1 /* Sources */,
+				32421F6F1D9406A300449FD1 /* Frameworks */,
+				32421F701D9406A300449FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarphoneVolumeSample;
+			productName = EarphoneVolumeSample;
+			productReference = 32421F721D9406A300449FD1 /* EarphoneVolumeSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32421F6A1D9406A300449FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "T@d";
+				TargetAttributes = {
+					32421F711D9406A300449FD1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LPMD2DMU36;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 32421F6D1D9406A300449FD1 /* Build configuration list for PBXProject "EarphoneVolumeSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32421F691D9406A300449FD1;
+			productRefGroup = 32421F731D9406A300449FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32421F711D9406A300449FD1 /* EarphoneVolumeSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32421F701D9406A300449FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32421F801D9406A300449FD1 /* LaunchScreen.storyboard in Resources */,
+				32421F7D1D9406A300449FD1 /* Assets.xcassets in Resources */,
+				32421F7B1D9406A300449FD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32421F6E1D9406A300449FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32421F781D9406A300449FD1 /* ViewController.swift in Sources */,
+				32421F761D9406A300449FD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32421F791D9406A300449FD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32421F7A1D9406A300449FD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32421F7E1D9406A300449FD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32421F7F1D9406A300449FD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32421F821D9406A300449FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32421F831D9406A300449FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32421F851D9406A300449FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LPMD2DMU36;
+				INFOPLIST_FILE = EarphoneVolumeSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.blunder.EarphoneVolumeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		32421F861D9406A300449FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LPMD2DMU36;
+				INFOPLIST_FILE = EarphoneVolumeSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.blunder.EarphoneVolumeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32421F6D1D9406A300449FD1 /* Build configuration list for PBXProject "EarphoneVolumeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32421F821D9406A300449FD1 /* Debug */,
+				32421F831D9406A300449FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32421F841D9406A300449FD1 /* Build configuration list for PBXNativeTarget "EarphoneVolumeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32421F851D9406A300449FD1 /* Debug */,
+				32421F861D9406A300449FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32421F6A1D9406A300449FD1 /* Project object */;
+}
